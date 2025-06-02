@@ -1,0 +1,5 @@
+<launch>
+  <node name="gpr_node" pkg="gpr_node" type="gpr_node_node" output="screen">
+    <param name="gpr_alpha" value="0.5" />
+  </node>
+</launch>

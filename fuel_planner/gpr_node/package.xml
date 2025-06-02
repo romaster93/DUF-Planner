@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gpr_node</name>
+  <version>0.0.1</version>
+  <description>Gaussian Process Regression implementation in C++ for ROS</description>
+
+  <!-- maintainer 이름과 이메일 반드시 포함 -->
+  <maintainer email="cho@lab.example.com">Woosung Cho</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>plan_env</build_depend>
+  <build_depend>active_perception</build_depend>
+  <build_depend>gazebo_radiation_plugins</build_depend>
+
+  <exec_depend>gazebo_radiation_plugins</exec_depend>
+  <exec_depend>plan_env</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>active_perception</exec_depend>
+
+  <export>
+  </export>
+</package>
