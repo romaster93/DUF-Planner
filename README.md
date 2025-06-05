@@ -1,4 +1,4 @@
-# DUF-Planner
+# Diffusion Uncertainty Frontier based path Planner
 
 This repository extends the HKUST-Aerial-Robotics [FUEL](https://github.com/HKUST-Aerial-Robotics/FUEL) planner by adding a diffusion-based sampling stage for frontier expansion. Instead of only following detected frontiers, our method samples extra points in free space around each frontier to reduce uncertainty and improve goal selection.
 
